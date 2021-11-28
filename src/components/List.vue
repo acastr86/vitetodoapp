@@ -22,7 +22,7 @@
         @click="changeStatus(task.id)"
         :class="isCompleted ? 'text-blue-800 hover:bg-blue-400' 
         : 'text-yellow-800 hover:bg-yellow-400'"
-        class="w-full px-4 py-2 font-bold text-center transition-colors duration-500 bg-gray-300 rounded-lg hover:cursor-pointer hover:text-gray-200">{{task.name}}</li>
+        class="w-full px-4 py-2 font-bold text-center transition-colors duration-500 bg-gray-300 rounded-lg hover:cursor-pointer hover:text-gray-200">{{task.text}}</li>
       </ul>
       </div>
 </template>
